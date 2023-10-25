@@ -1,0 +1,168 @@
+body{
+    background-image: url(../img/fondo.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#compra{
+    background-image: url(../img/compra.jpg);
+}
+
+#compra .contenedor-horizontal{
+    margin: 0 37% 0 3%;
+}
+
+#login{
+    backdrop-filter: blur(10px);
+}
+
+
+/* .efecto{
+    background-image: url(../img/gotas.gif);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+} */
+
+form{
+    padding: 4% 0;
+}
+
+hr{
+    border: 2px solid #9dc4ed  !important;
+}
+
+.cuadrado-menu{
+    width: 40px; 
+    height: 30px; 
+    background-color:#246db3 !important; 
+    border: 1px solid #246db3 !important;
+    border-radius:30%; 
+    padding-top:1%
+}
+
+.contenido{
+    padding: 0 4%;
+}
+
+.contenido-vertical{
+    margin-top: 3%;
+}
+
+.alinear-derecha{
+    float: right;
+}
+
+.separacion-grande-bottom{
+   padding-bottom: 4%; 
+}
+
+.separacion-xgrande-bottom{
+    padding-bottom: 10%; 
+ }
+
+.separacion-corta-bottom{
+    padding-bottom: 1%; 
+}
+
+.espaciado{
+    margin-right: 3%;
+}
+
+.contenedor-horizontal{
+    margin: 0 15%;
+}
+
+.contenedor-vertical{
+    margin: 5% 0;
+}
+
+.card-principal{
+    background-color: #246db3 !important;
+    border-radius: 2% !important;
+    padding: 4% 0 6%;
+}
+
+.card-menu{
+    background-color: #9dc4ed !important;
+    border-radius: 10% !important;
+    padding: 4% 0 6%;
+    margin-bottom: 5%;
+    
+}
+
+.centrar-boton{
+    padding-top: 3%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0; 
+}
+
+input[type=number] { 
+    -moz-appearance:textfield; 
+}
+
+
+@media (max-width:650px){
+    
+    #compra .contenedor-horizontal{
+        margin: 0 10%;
+    }
+
+    #compra{
+        background-image: none;
+        background-color: #3491ee !important;
+    }
+}
+
+@media (max-width:576px){
+    label{
+        font-size: 10pt;
+    }
+
+    #img-login{
+        width: 125px;
+    } 
+
+}
+
+@media (max-width:400px){
+    label{
+        font-size: 8pt;
+    }
+
+    #img-login{
+        width: 100px;
+    }
+
+    p{
+        font-size: 9px;
+    }
+
+    #btnlogin{
+        font-size: 9px;
+    }
+
+    body{
+        background-image: none;
+        background-color: #3491ee !important;
+    }
+}
+
+@media (max-width:300px){
+    label{
+        font-size: 6pt;
+    }
+
+    #img-login{
+        width: 80px;
+    }
+
+    #btnlogin{
+        font-size: 5px;
+    }
+}
